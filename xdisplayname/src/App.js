@@ -27,7 +27,7 @@ function App() {
       <h1>Full Name Display</h1>
       First Name: <input type="text" value={firstName} onChange={getFirstName} required /><br/>
       Last Name: <input type="text" value={lastName} onChange={getLastName} required /><br/>
-      <button> Submit </button>
+      <button type='submit'> Submit </button>
       </form>
       {fullName && <p>Full Name: {fullName}</p>}
     </div>
